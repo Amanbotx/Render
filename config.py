@@ -26,19 +26,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "24004349")
+    API_HASH  = os.environ.get("API_HASH", "5aabfb11c262b17d568d828a3100f296")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6964909008:AAHBxM7RhezFZS0_4apfvIukx9MJsqF7T_4") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")    
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://ranjuvishwakarma50:aman@cluster0.01oc5gj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/5ba316e179b39faa71904.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1229852181').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "Illegal_Developer") 
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5977931010').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
     # wes response configuration     
