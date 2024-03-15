@@ -36,7 +36,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/5ba316e179b39faa71904.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/89523568d8918afbc2a82.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5977931010').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
@@ -94,7 +94,7 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ILLGELA_DEVELOPER🙏🥲
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
-»<a href=https://t.me/YD_OWNER_BOT>**ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀ**</a>🕷
+»<a href=https://t.me/YD_OWNER_BOT>**YD OWNER BOT**</a>🕷
 »**Aman vishwakarma♡**"""
 
     PROGRESS_BAR = """<b>\n
