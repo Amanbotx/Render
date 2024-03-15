@@ -56,11 +56,17 @@ class Txt(object):
 
 💺 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Illegal_Developer 💞</b>"""
 
-    ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/IllegalDeveloperBot>**ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀ**</a> 🕷
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : **ᴋᴜɴᴀʟ ꜱɪɴɢʜ**
-╰───────────────⍟ """
+    ABOUT_TXT = """
+╭───────────⍟
+├🤖 My Name is : {}
+├👑 CHANNEL : <a href=https://t.me/VJ_Bots>VJ Bots</a> 
+├📕 LIBRARY : <a href=https://github.com/pyrogram>Pyrogram</a>
+├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
+├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
+├🌀 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href=https://www.oracle.com/cloud/>Render</a>
+├📊 BUILD-STATUS : Python v3.10.5              
+╰───────────────⍟
+                                """
 
     HELP_TXT = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ</u></b>
