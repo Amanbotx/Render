@@ -38,7 +38,7 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/89523568d8918afbc2a82.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5977931010').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "MOVIEBOTUPDETA") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
     # wes response configuration     
